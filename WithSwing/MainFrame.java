@@ -12,6 +12,7 @@ public class MainFrame extends JFrame{
     private JLabel l1 , l2 , l3;
     private GridLayout gr;
     private AdminMainPanel amp ;
+    private CustomerMainPanel cmp;
     private Border br1;
 
 
@@ -45,9 +46,11 @@ public class MainFrame extends JFrame{
 
         tb = new JTabbedPane();
         amp = new AdminMainPanel();
+        cmp = new CustomerMainPanel();
         tb.setSize(500, 400);
         tb.setBorder(br1);
         tb.addTab("ADMIN" , new JScrollPane(amp));
+        tb.addTab("CUSTOMER", new JScrollPane(cmp));
 
         p4 = new JPanel();
         l3 = new JLabel("CopyRights @Anushk_2201 2023");

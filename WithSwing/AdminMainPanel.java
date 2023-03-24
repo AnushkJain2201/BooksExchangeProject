@@ -20,8 +20,8 @@ public class AdminMainPanel extends JPanel{
 
     public AdminMainPanel(){
         l1 = new JLabel("Welcome To The Admin's Panel");
-        l1.setBorder(new EmptyBorder(50, 10, 40, 10));
         l1.setFont(new Font("Arial", Font.BOLD, 18));
+        l1.setBorder(new EmptyBorder(50, 10, 40, 10));
 
         l2 = new JLabel("Name:  ");
         tf1 = new JTextField(10);
