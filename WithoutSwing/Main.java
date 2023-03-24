@@ -1,4 +1,4 @@
-package WithoutSwing;
+// package WithoutSwing;
 import java.util.Scanner;
 
 public class Main{
