@@ -1,9 +1,9 @@
 package WithSwing;
 
-import java.awt.BorderLayout;
+// import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
-import java.awt.GridBagLayoutInfo;
+// import java.awt.GridBagLayoutInfo;  
 import java.awt.GridLayout;
 
 import javax.swing.BorderFactory;
